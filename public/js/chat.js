@@ -34,7 +34,8 @@ const  {username, room} = Qs.parse(location.search, {ignoreQueryPrefix: true})
 // }); 
 
 var peer = new Peer(undefined,{
-    debug:2
+    debug:2,
+    proxied: true
 }); 
 
 
