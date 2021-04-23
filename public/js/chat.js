@@ -34,8 +34,7 @@ const  {username, room} = Qs.parse(location.search, {ignoreQueryPrefix: true})
 // }); 
 
 var peer = new Peer(undefined,{
-        host: 'incognito-buzzroom.herokuapp.com',
-        proxied: true
+    debug:2
 }); 
 
 
