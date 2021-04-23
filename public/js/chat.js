@@ -238,4 +238,11 @@ peer.on('open', (peerId)=>{
 
 
 
+// 23rd April 2021
+// $ heroku git:clone -a satya-incognito-buzzroom
+// $ cd satya-incognito-buzzroom
 
+
+// $ git add .
+// $ git commit -am "make it better"
+// $ git push heroku master
