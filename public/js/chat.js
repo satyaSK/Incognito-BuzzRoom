@@ -33,10 +33,7 @@ const  {username, room} = Qs.parse(location.search, {ignoreQueryPrefix: true})
 //     port: 3001
 // }); 
 
-var peer = new Peer(undefined,{
-    debug:2,
-    proxied: true
-}); 
+var peer = new Peer(undefined); 
 
 
 navigator.mediaDevices.getUserMedia({
