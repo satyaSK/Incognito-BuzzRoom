@@ -33,7 +33,11 @@ const  {username, room} = Qs.parse(location.search, {ignoreQueryPrefix: true})
 //     port: 3001
 // }); 
 
-var peer = new Peer(undefined); 
+var peer = new Peer(undefined,{
+        secure: true, 
+        host: 'incognito-buzzroom.herokuapp.com', 
+        port: 443,
+}); 
 
 
 navigator.mediaDevices.getUserMedia({
